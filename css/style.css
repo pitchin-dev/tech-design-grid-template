@@ -287,3 +287,19 @@ h1, h2, h3, h4, h5, h6 {
       cursor: pointer; }
       .footer__social svg:hover {
         color: #fff; }
+
+@media screen and (max-width: 1060px) {
+  .header {
+    padding: 0 20px; }
+  .section--home {
+    padding: 0 20px; }
+  .section--peak {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    padding: 0 20px; }
+  .section--cameras {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    padding: 0 20px; }
+  .footer {
+    padding: 0 20px; } }
