@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Design | Grid template layout</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/71bbba30b5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header grid">
+
+        <div class="header__burger">
+            <i class="fas fa-bars"></i>
+            <span class="header__burger__menu">
+                Menu
+            </span>
+        </div>
+
+        <div class="header__logo">
+            <h1 class="header__logo__header">
+                DMT
+            </h1>
+            <h2 class="header__logo__subtitle">
+                Design Meets Tech
+            </h2>
+        </div>
+
+        <div class="header__search">
+            <span class="header__search__search">
+                Search
+            </span>
+            <i class="fas fa-search"></i>
+        </div>
+
+    </header>
+
+    <main class="main">
+
+        <section class="section section--home grid">
+
+            <article class="article article--home">
+                <div class="home">
+                    <h4 class="article__name home__name">Home</h4>
+                    <h3 class="article__header home__header">Buster Bulb</h3>
+                    <p class="article__text home__text">
+                        The first designer
+                        LED bulb, finished 
+                        in gold glass.
+                    </p>
+                    <a href="#" class="btn btn__more">Read more</a>
+                </div>
+            </article>
+
+        </section>
+
+        <section class="section section--peak grid">
+
+            <article class="article article--accessories">
+                <div class="accessories">
+                    <h4 class="article__name accessories__name">Accessories</h4>
+                    <h3 class="article__header accessories__header">Peak</h3>
+                    <p class="article__text accessories__text">
+                        A playful pouch
+                        with a trick up its
+                        sleeve
+                    </p>
+                    <a href="#" class="btn btn__more">Read more</a>
+                </div>
+            </article>
+
+            <article class="article article--subscribe">
+                <div class="subscribe">
+                    <h3 class="subscribe__header">Good Things</h3>
+                    <p class="subscribe__dots text-center">...</p>
+                    <p class="subscribe__text text-center">
+                        come to those who sign up
+                        for our newsletter.
+                    </p>
+                    <form class="subscribe__form">
+                        <input type="text" class="subscribe__input" placeholder="Your email">
+                        <button class="btn subscribe__btn">Subscribe</button>
+                    </form>
+                    <p class="subscribe__text--privacy text-center">
+                        We respect your privacy and we won’t
+                        share your information.
+                    </p>
+                </div>
+            </article>
+
+        </section>
+
+        <section class="section section--cameras grid">
+
+            <article class="article article--cameras">
+                <div class="cameras">
+                    <h4 class="article__name">Cameras</h4>
+                    <h3 class="article__header article__header--small text-center">Leica M</h3>
+                    <a href="#" class="btn btn__review">Review</a>
+                </div>
+            </article>
+
+            <article class="article article--sound">
+                <div class="sound">
+                    <h4 class="article__name">Sound</h4>
+                    <h3 class="article__header article__header--small text-center">Trobla Amplifier</h3>
+                    <a href="#" class="btn btn__review">Review</a>
+                </div>
+            </article>
+
+            <article class="article article--leica">
+                <div class="leica">
+                    <h4 class="article__name leica__name">Home</h4>
+                    <h3 class="article__header article__header--small">Buster Bulb</h3>
+                    <p class="article__text article__text--small">
+                        The first designer
+                        LED bulb, finished 
+                        in gold glass.
+                    </p>
+                    <a href="#" class="btn btn__more">Read more</a>
+                </div>
+            </article>
+
+        </section>
+
+    </main>
+
+    <footer class="footer grid">
+        <div class="footer__copyright">
+            <span class="copyright__text">Copyright DMT</span>
+        </div>
+        <div class="footer__social">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+        </div>
+    </footer>
+</body>
+</html>
