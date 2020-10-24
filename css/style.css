@@ -301,5 +301,9 @@ h1, h2, h3, h4, h5, h6 {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
     padding: 0 20px; }
+  .home__header {
+  font-size: 36px; }
+  .home__text {
+  font-size: 20px; }
   .footer {
     padding: 0 20px; } }
